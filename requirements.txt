@@ -1,0 +1,48 @@
+# Core Bot Framework
+python-telegram-bot[all]==20.7
+
+# Web Framework & Server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+gunicorn==21.2.0
+
+# Environment & Configuration
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# HTTP & Networking
+httpx==0.25.2
+aiohttp==3.9.1
+requests==2.31.0
+
+# Media Processing & Download
+instaloader==4.10.3
+yt-dlp==2023.11.16
+ffmpeg-python==0.2.0
+
+# Image & Video Processing
+Pillow==10.1.0
+opencv-python-headless==4.8.1.78
+
+# System & Performance
+psutil==5.9.6
+asyncio-throttle==1.0.2
+
+# Data & Serialization
+orjson==3.9.10
+
+# Development & Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+isort==5.12.0
+
+# Logging & Monitoring
+structlog==23.2.0
+
+# Security
+cryptography==41.0.8
